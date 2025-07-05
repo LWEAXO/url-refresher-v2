@@ -68,7 +68,7 @@ async function updateDisplay() {
   console.log(`║`.cyan.bold + ` ✅  Başarılı:`.white.bold + ` ${successCount.toString().padEnd(28)}`.green.bold + `               ║`.cyan.bold);
   console.log(`║`.cyan.bold + ` ❌  Hatalı:`.white.bold + ` ${errorCount.toString().padEnd(30)}`.red.bold + `               ║`.cyan.bold);
   console.log(`║`.cyan.bold + ` 📊  Başarı Oranı:`.white.bold + ` ${successRate}%`.padEnd(28).cyan.bold + `            ║`.cyan.bold);
-  console.log(`║`.cyan.bold + ` ⏱️   Yenileme Aralığı:`.white.bold + ` ${dynamicInterval}ms`.padEnd(24).magenta.bold + `            ║`.cyan.bold);
+  console.log(`║`.cyan.bold + ` ⏱️  Yenileme Aralığı:`.white.bold + ` ${dynamicInterval}ms`.padEnd(24).magenta.bold + `            ║`.cyan.bold);
   config.ping_kontrol === true ? console.log(`║`.cyan.bold + ` 🏓  Ping:`.white.bold + ` ${currentPing === -1 ? 'HATA' : currentPing + 'ms'}`.padEnd(30).blue.bold + `                  ║`.cyan.bold) : null
   console.log('╠──────────────────────────────────────────────────────────╣'.cyan.bold);
   
